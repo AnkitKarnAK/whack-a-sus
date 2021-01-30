@@ -6,11 +6,18 @@
 
 body{
     font-family: 'Helvetica';
+    background-color: #333231;
+    
 
+}
+h1{
+    text-align: center;
+    padding: 10px;
 }
 
 .wrapper{
     border: 3px solid red;
+    margin: 30px;
     width: 800px;
     height: 600px;
     position: absolute;
