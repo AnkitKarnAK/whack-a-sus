@@ -68,11 +68,11 @@ button{
     z-index: 200;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-
+    
 }
 
 .hole{
     border: 3px solid red;
+    flex: 1 0 33.33%;
    
 }
