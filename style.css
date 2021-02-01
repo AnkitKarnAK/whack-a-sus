@@ -10,22 +10,22 @@ body{
     
 
 }
-h1{
+/* h1{
     text-align: center;
     padding: 10px;
     color: red;
-}
+} */
 
 .wrapper{
     border: 3px solid red;
-    margin: 30px;
+    margin: 1px;
     width: 800px;
     height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url('images/space.png');
+    background-image: url('images/space3.png');
     overflow: hidden;
 }
 
@@ -113,6 +113,7 @@ button{
     transition: 0.4s;
     background-repeat: no-repeat;
     background-position: bottom;
+    cursor: pointer;
 }
 
 .mole.small{
