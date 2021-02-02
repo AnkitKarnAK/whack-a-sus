@@ -3,6 +3,7 @@ const scoreBoard=document.querySelector('.score');
 const moles=document.querySelectorAll('.mole');
 const countdownBoard=document.querySelector('.countdown');
 const startButton=document.querySelector('.startButton');
+const audioElement=document.querySelector('#audio-element');
 
 let lastHole;
 let timeUp=false;
@@ -34,6 +35,7 @@ function popOut(){
 
 
 function startGame(){
+    audioElement.play();
     startButton.style.pointerEvents  = 'none';
     countdown = timeLimit/1000;
     scoreBoard.textContent=0;
