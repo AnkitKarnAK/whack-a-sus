@@ -126,3 +126,11 @@ button{
 .hole.up .mole{
     top:0;
 }
+
+.made-by{
+margin: 2rem auto;
+color: white;
+}
+.made-by span{
+color: red;
+}
